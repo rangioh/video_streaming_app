@@ -29,7 +29,6 @@ class VideochatServer:
         self.receive_thread.daemon = True
         self.receive_thread.start()
 
-
         # 서버 GUI 시작
         tk.mainloop()
 
@@ -73,6 +72,7 @@ class VideochatServer:
             # 서버 UI에도 비디오 화면 표시
             self.show_frame(frame)
 
+ 
     # 클라이언트 연결 유지
     def receive_clients(self):
         while True:
