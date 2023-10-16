@@ -1,5 +1,6 @@
-# video_streaming_webapp
+# video_streaming_app
 네트워크 프로그래밍 과제
+채팅창이 있는 비디오 스트리밍 앱 만들기
 
 ---
 
